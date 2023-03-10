@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Mar 2023 22:36:46 +0200</lastBuildDate><atom:link href="https://dumiadrian.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 22:48:47 +0200</lastBuildDate><atom:link href="https://dumiadrian.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create_blog_github</title>
+      <link>https://dumiadrian.github.io/blog/posts/create_blog_github/</link>
+      <pubDate>Fri, 10 Mar 2023 22:48:47 +0200</pubDate>
+      
+      <guid>https://dumiadrian.github.io/blog/posts/create_blog_github/</guid>
+      <description>1. Create an account on Github 2. Download Github Desktop 3 Install hugo (macbook air m1) brew install hugo If you need to install brew Open the terminal and run the following command:
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; And press ENTER Add Homebrew to your PATH: copy that 2 lines in your terminal and press Enter
+4. Create a new repository 5. Create a new site Open a terminal, -&amp;gt; Go to desktop and run the following command:</description>
+    </item>
+    
     <item>
       <title>Obsidian Git</title>
       <link>https://dumiadrian.github.io/blog/posts/obsidian-git/</link>

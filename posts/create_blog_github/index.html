@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Create_blog_github | Blog</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.111.2">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://dumiadrian.github.io/blog/css/index.css">
+<link rel="canonical" href="https://dumiadrian.github.io/blog/posts/create_blog_github/">
+<link rel="alternate" type="application/rss+xml" href="" title="Blog">
+
+<header>
+  
+    <a href="https://dumiadrian.github.io/blog/" class="title">Blog</a>
+  
+  
+</header>
+
+<article>
+  <header>
+    <h1>Create_blog_github</h1>
+    <time datetime="2023-03-10T22:48:47&#43;02:00">March 10, 2023</time>
+  </header>
+  <hr>
+<h1 id="1-create-an-account-on-github">1. Create an account on Github</h1>
+<hr>
+<h1 id="2-download-github-desktop">2. Download Github Desktop</h1>
+<hr>
+<h1 id="3-install-hugo-macbook-air-m1">3 Install hugo (macbook air m1)</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><p>If you need to install brew
+Open the terminal and run the following command:</p>
+<pre tabindex="0"><code>/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34;
+</code></pre><p>And press ENTER
+<img src="https://user-images.githubusercontent.com/127399572/224429191-5c87ebdc-3f4c-43d1-82af-4ffe079d8e76.png" alt="image">	
+Add Homebrew to your PATH: copy that 2 lines in your terminal and press Enter</p>
+<hr>
+<h1 id="4-create-a-new-repository">4. Create a new repository</h1>
+<p><img src="https://user-images.githubusercontent.com/127399572/224429306-6504ebb3-7f0a-4fe4-bb67-68cdc918ff11.png" alt="image">
+<img src="https://user-images.githubusercontent.com/127399572/224429344-b1d86bf4-dfe7-46d9-bd56-35e425617074.png" alt="image">
+<img src="https://user-images.githubusercontent.com/127399572/224429389-e0fbdf6d-7087-4061-ad47-4efe2e994554.png" alt="image">
+<img src="https://user-images.githubusercontent.com/127399572/224429431-9d2b867f-5845-4adc-892c-a8c0cd4264be.png" alt="image">
+<img src="https://user-images.githubusercontent.com/127399572/224429473-48dc0878-720a-4d45-8e17-19fa29f020ce.png" alt="image"></p>
+<hr>
+<h1 id="5-create-a-new-site">5. Create a new site</h1>
+<p>Open a terminal, -&gt; Go to desktop and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site blog
+</span></span></code></pre></div><p><img src="https://user-images.githubusercontent.com/127399572/224429965-11d26952-d860-4303-8de1-ed459ff110c1.png" alt="image"></p>
+<hr>
+<h1 id="6-now-you-need-to-git-clone-your-theme">6. Now you need to git clone your theme</h1>
+<p>Go to -&gt; /blog/themes and run the command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/niklasbuschmann/contrast-hugo.git
+</span></span></code></pre></div><p>You need to modify config.toml file
+<img src="https://user-images.githubusercontent.com/127399572/224430049-3138731a-0571-47c1-ab08-cb7b0bfad349.png" alt="image"></p>
+<p>baseURL -&gt; is from your github pages</p>
+<p>Create a new posts</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/mypost.md
+</span></span></code></pre></div><p>Modify the post:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /content/posts
+</span></span><span style="display:flex;"><span>nvim mypost.md
+</span></span><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><hr>
+<h1 id="7-build-the-code---hugo--d--t-contrast-hugo">7. Build the code -&gt; hugo -D -t contrast-hugo</h1>
+<p><img src="https://user-images.githubusercontent.com/127399572/224430182-9879bec1-3abf-444b-96d9-0ce9207dddc0.png" alt="image"></p>
+<hr>
+<h1 id="8-now-you-need-to-copy-all-files-from-public-folder-into-the-git-folder">8. Now you need to copy all files from public folder into the git folder.</h1>
+<p>Add images: Go to git -&gt; Issues -&gt; Images -&gt; Copy the image in  &ldquo;Leave a comment&rdquo;. -&gt; Comment</p>
+
+</article>
+
+
+
+</html>
